@@ -13,8 +13,8 @@ app.use(express.json());
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'your-email@gmail.com', // Replace with your Gmail
-        pass: 'your-app-password'     // Replace with your app password
+        user: 'thesumgroupemail@gmail.com', // Replace with your Gmail
+        pass: 'mjwv airk ktso nixc'     // Replace with your app password
     }
 });
 
@@ -25,8 +25,8 @@ app.post('/api/contact', async (req, res) => {
 
         // Send email
         await transporter.sendMail({
-            from: 'your-email@gmail.com', // Replace with your Gmail
-            to: 'your-email@gmail.com',   // Replace with your Gmail
+            from: 'thesumgroupemail@gmail.com', // Replace with your Gmail
+            to: 'pandeypratik4@gmail.com',   // Replace with your Gmail
             subject: `New Contact Form Submission from ${fullName}`,
             html: `
                 <h3>New Contact Form Submission</h3>

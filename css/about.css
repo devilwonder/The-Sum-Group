@@ -365,12 +365,6 @@
     align-items: center;
 }
 
-/* .footer-logo {
-    height: 100px !important;
-    width: auto;
-    margin-bottom: 0.5rem;
-} */
-
 .footer-brand-title {
     font-size: 2rem;
     font-weight: 700;
@@ -597,4 +591,11 @@ body, p, li, span, a, label, input, select, textarea, .section-title p, .team-ro
         max-width: unset;
         padding: 0.8rem 1rem;
     }
+}
+
+.footer-logo {
+    width: 64px !important;
+    height: 64px !important;
+    object-fit: contain;
+    margin-bottom: var(--spacing-sm) !important;
 } 
