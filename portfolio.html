@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - The Sum Group</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;">
+                    <img src="images/icons/logo.png" alt="The Sum Group Logo" style="height: 48px; width: auto;">
+                    <span style="font-size: 1.6rem; font-weight: 700; letter-spacing: 2px; color: #D4AF37; text-transform: uppercase;">THE SUM GROUP</span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+
+                <div class="nav-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                    <button class="mobile-menu-btn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Portfolio Hero -->
+    <section class="portfolio-hero" data-aos="fade-up">
+        <div class="container">
+            <div class="portfolio-hero-content">
+                <h1>Our Portfolio</h1>
+                <p>Discover our successful projects and client success stories</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter" data-aos="fade-up">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+                <button class="filter-btn" data-filter="solutions">Solutions</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid" data-aos="fade-up">
+        <div class="container">
+            <div class="grid-3">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="infrastructure">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=60" alt="Cloud Infrastructure">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Cloud Infrastructure</h3>
+                                <p>Enterprise cloud migration and management</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="solutions">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?w=800&auto=format&fit=crop&q=60" alt="E-commerce Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>E-commerce Platform</h3>
+                                <p>Custom e-commerce solution with advanced features</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="solutions">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60" alt="Analytics Dashboard">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Analytics Dashboard</h3>
+                                <p>Real-time business intelligence platform</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&auto=format&fit=crop&q=60" alt="Digital Marketing Campaign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Digital Marketing Campaign</h3>
+                                <p>Integrated digital marketing strategy</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="solutions">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/mobile.jpg" alt="Mobile App Development">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Mobile App Development</h3>
+                                <p>Cross-platform mobile application</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="infrastructure">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=60" alt="Network Security">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Network Security</h3>
+                                <p>Enterprise-grade security solution</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=60" alt="UI/UX Redesign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>UI/UX Redesign</h3>
+                                <p>Modern user interface for a SaaS platform</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=800&auto=format&fit=crop&q=60" alt="SEO Campaign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>SEO Campaign</h3>
+                                <p>Boosted organic traffic for an e-commerce site</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="portfolio-item" data-category="infrastructure">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&auto=format&fit=crop&q=60" alt="Server Migration">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Server Migration</h3>
+                                <p>Seamless migration to cloud infrastructure</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop&q=60" alt="Brand Identity">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Brand Identity</h3>
+                                <p>Complete branding for a fintech startup</p>
+                                <a href="#" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" data-aos="fade-up">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about working with us</p>
+            </div>
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <p>"The Sum Group delivered exceptional results and helped us scale Bharat Svarga to new heights. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/testimonials/pratik.jpeg" alt="Pratik Pandey">
+                        <div class="author-info">
+                            <h4>Pratik Pandey</h4>
+                            <p>Founder & MD, Bharat Svarga</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <p>"Our digital presence grew rapidly thanks to The Sum Group. Their expertise is unmatched."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/testimonials/kapil.jpg" alt="Kapil Muni Pandey">
+                        <div class="author-info">
+                            <h4>Kopal Jagriti Munch</h4>
+                            <p>Kapil Muni Pandey, Founder</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-content">
+                        <p>"Kiran Purification's growth journey was made easier with The Sum Group's support and innovation."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/testimonials/muskan.jpg" alt="Muskan Sharma">
+                        <div class="author-info">
+                            <h4>Kiran Purification</h4>
+                            <p>Muskan Sharma, Marketing Head</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="testimonial-content">
+                        <p>"R K Electronics reached new customers and markets with The Sum Group's help. Excellent team!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/testimonials/prince.jpg" alt="Saswat Singh">
+                        <div class="author-info">
+                            <h4>R K Electronics</h4>
+                            <p>Saswat Singh, Sales Head</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-modern" data-aos="fade-up">
+        <div class="container">
+            <h2 class="cta-title">Ready to Start Your Project?</h2>
+            <p class="cta-desc">Let's create something amazing together</p>
+            <a href="contact.html" class="btn btn-light btn-lg">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="modern-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/icons/logo.png" alt="The Sum Group Logo" class="footer-logo">
+                    <span class="footer-brand-title">THE SUM GROUP</span>
+                    <p class="footer-tagline">Empowering Growth Through Technology</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <img src="images/icons/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <img src="images/icons/twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <img src="images/icons/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <img src="images/icons/instagram.svg" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#infrastructure">IT Infrastructure</a></li>
+                        <li><a href="services.html#solutions">IT Solutions</a></li>
+                        <li><a href="services.html#design">UI/UX Design</a></li>
+                        <li><a href="services.html#marketing">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:info@thesumgroup.com">info@thesumgroup.com</a></li>
+                        <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+                        <li>123 Business Street, Tech City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Sum Group. All rights reserved.</p>
+                <div class="footer-legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/header.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

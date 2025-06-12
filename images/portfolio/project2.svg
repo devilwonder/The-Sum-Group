@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="400" height="300" fill="#0A1128"/>
+    
+    <!-- E-commerce UI Elements -->
+    <rect x="50" y="50" width="300" height="200" rx="10" fill="#1BE7FF" opacity="0.1"/>
+    
+    <!-- Product Cards -->
+    <rect x="70" y="70" width="100" height="150" rx="5" fill="#F4D35E" opacity="0.2"/>
+    <rect x="190" y="70" width="100" height="150" rx="5" fill="#1BE7FF" opacity="0.2"/>
+    <rect x="310" y="70" width="100" height="150" rx="5" fill="#F4D35E" opacity="0.2"/>
+    
+    <!-- UI Elements -->
+    <rect x="70" y="230" width="340" height="10" rx="5" fill="#1BE7FF" opacity="0.3"/>
+    <rect x="70" y="250" width="200" height="10" rx="5" fill="#1BE7FF" opacity="0.3"/>
+    <rect x="70" y="270" width="150" height="10" rx="5" fill="#1BE7FF" opacity="0.3"/>
+</svg> 

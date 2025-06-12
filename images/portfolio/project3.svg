@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="400" height="300" fill="#0A1128"/>
+    
+    <!-- Analytics Dashboard -->
+    <rect x="50" y="50" width="300" height="200" rx="10" fill="#1BE7FF" opacity="0.1"/>
+    
+    <!-- Charts -->
+    <path d="M70 200 L120 150 L170 180 L220 100 L270 130" stroke="#1BE7FF" stroke-width="3" fill="none"/>
+    <path d="M70 200 L120 180 L170 160 L220 140 L270 120" stroke="#F4D35E" stroke-width="3" fill="none"/>
+    
+    <!-- Stats -->
+    <rect x="70" y="50" width="80" height="60" rx="5" fill="#1BE7FF" opacity="0.2"/>
+    <rect x="170" y="50" width="80" height="60" rx="5" fill="#F4D35E" opacity="0.2"/>
+    <rect x="270" y="50" width="80" height="60" rx="5" fill="#1BE7FF" opacity="0.2"/>
+    
+    <!-- Grid Lines -->
+    <line x1="50" y1="200" x2="350" y2="200" stroke="#1BE7FF" stroke-width="1" opacity="0.2"/>
+    <line x1="50" y1="150" x2="350" y2="150" stroke="#1BE7FF" stroke-width="1" opacity="0.2"/>
+    <line x1="50" y1="100" x2="350" y2="100" stroke="#1BE7FF" stroke-width="1" opacity="0.2"/>
+</svg> 

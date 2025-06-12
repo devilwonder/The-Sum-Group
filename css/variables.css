@@ -1,0 +1,90 @@
+:root {
+    /* Color Scheme */
+    --brand-blue: #0A1128;
+    --brand-gold: #D4AF37;
+    --primary-color: var(--brand-blue);
+    --gold-color: var(--brand-gold);
+    --secondary-color: #F4D35E;  /* Yellow */
+    --accent-color: #1BE7FF;     /* Sky Blue */
+    --bg-color: var(--brand-blue);
+    
+    /* Text Colors */
+    --text-primary: #F9FAFB;
+    --text-secondary: #D4AF37;
+    --text-light: #F9FAFB;
+    
+    /* Background Colors */
+    --bg-primary: var(--brand-blue);
+    --bg-secondary: #13204A;
+    --bg-dark: #0A1128;
+    
+    /* Hover Colors */
+    --hover-primary: #0D1B3E;
+    --hover-secondary: #F5D76E;
+    --hover-accent: #4EEFFF;
+    
+    /* Shadow */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --radius-full: 9999px;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+    
+    /* Font Sizes */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    
+    /* Font Weights */
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-normal: 300ms ease;
+    --transition-slow: 500ms ease;
+    
+    /* Container */
+    --container-width: 1200px;
+    --container-padding: 1rem;
+}
+
+/* Dark Theme Colors */
+[data-theme="dark"] {
+    --primary-color: #1BE7FF;
+    --gold-color: #D4AF37;
+    --secondary-color: #F4D35E;
+    --accent-color: #0A1128;
+    --bg-color: #0A1128;
+    --bg-primary: #0A1128;
+    --bg-secondary: #181C2A;
+    --bg-light: #232946;
+    --white: #232946;
+    --text-primary: #F9FAFB;
+    --text-secondary: #E5E7EB;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
+} 

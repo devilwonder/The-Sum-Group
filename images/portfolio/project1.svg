@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="400" height="300" fill="#0A1128"/>
+    
+    <!-- Cloud Infrastructure Visualization -->
+    <circle cx="200" cy="150" r="80" fill="#1BE7FF" opacity="0.2"/>
+    <circle cx="150" cy="100" r="40" fill="#F4D35E" opacity="0.2"/>
+    <circle cx="250" cy="100" r="40" fill="#1BE7FF" opacity="0.2"/>
+    <circle cx="200" cy="200" r="40" fill="#F4D35E" opacity="0.2"/>
+    
+    <!-- Connection Lines -->
+    <path d="M150 100 L200 150" stroke="#1BE7FF" stroke-width="2" opacity="0.3"/>
+    <path d="M250 100 L200 150" stroke="#1BE7FF" stroke-width="2" opacity="0.3"/>
+    <path d="M200 200 L200 150" stroke="#1BE7FF" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Server Icons -->
+    <rect x="100" y="50" width="30" height="20" rx="2" fill="#1BE7FF" opacity="0.5"/>
+    <rect x="270" y="50" width="30" height="20" rx="2" fill="#1BE7FF" opacity="0.5"/>
+    <rect x="185" y="230" width="30" height="20" rx="2" fill="#1BE7FF" opacity="0.5"/>
+</svg> 
